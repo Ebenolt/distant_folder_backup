@@ -4,9 +4,9 @@ Automate Folders Backup and auto email when backup ended
 
 ## How to setup
 
-1. Copy your ssh key to the distant server / pc
-   To do so type 'ssh-copy-id username@server_ip' ,type yes and enter your password
-   If you don't have ssh key, generate one by typing 'ssh-keygen', then Enter x 3
+1. Copy your ssh key to the distant server / pc \
+   To do so type 'ssh-copy-id username@server_ip' ,type yes and enter your password \
+   If you don't have ssh key, generate one by typing 'ssh-keygen', then Enter x 3 \
 
 2. Run
 
@@ -18,11 +18,7 @@ sudo ./setup.sh
 
 ## How to change frequency
 
-Simply run
-```bash
-crontab -e
-```
-and edit the line under "#Dist_folder_backup"
+Simply run ```crontab -e``` and edit the line under "#Dist_folder_backup"
 
 Cron generators: \
 https://crontab-generator.org/ \
