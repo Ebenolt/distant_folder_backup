@@ -27,6 +27,6 @@ crontab -e
 and edit the line under "#Dist_folder_backup"
 
 Cron generators:
-https://crontab-generator.org/
-https://crontab.guru/
-https://crontab.cronhub.io/
+https://crontab-generator.org/ \
+https://crontab.guru/ \
+https://crontab.cronhub.io/ \
